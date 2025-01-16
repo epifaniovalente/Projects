@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/medias.css">
+</head>
+
+<body>
+
+    <main>
+
+        <section id="login">
+
+            <div id="imagem">
+
+                <!-- imagem Pelas CSS -->
+
+            </div>
+
+            <div id="formulario">
+                <h1>Login <br> Acesse e estude</h1>
+
+                <form action="login.js" method="post" autocomplete="of">
+                    <div id="autoridade">
+                        <select>
+                            <option selected>Entrar como:</option>
+                            <option value="PDG">Administrador</option>
+                            <option value="PROF">Professor</option>
+                            <option value="Estudante">Estudante</option>
+                        </select>
+                    </div>
+                    <div class="icone"><label for="usuario"> <img src="../images/icon-usuario.png" alt=""></label></div>
+                    <div class="campo">
+                        <input type="text" name="usuario" id="usuario" placeholder="Nome do utilizador" required>
+                    </div>
+
+                    <div class="icone">
+                        <label for="senha"> <img src="../images/icon-senha.png" alt=""></label>
+                    </div>
+                    <div class="campo">
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                    </div>
+                    
+                    <a href="esqueceu">Esqueceu a senha?</a>
+
+                    <input type="submit" value="Entrar">
+                    
+                    <p><a href="cadastro.html" id="cadastro">Não tenho uma conta. Cadastra-se.</a> </p>
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&COPY; Acesse e Estude 2024 | Todos os direitos Reservados.</p>
+    </footer>
+</body>
+
+</html>
